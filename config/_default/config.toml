@@ -100,8 +100,9 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
     path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
     # Generate Wowchemy CMS
     
-type: wowchemycms
-outputs:
-  - wowchemycms_config
+content/admin/index.md
+wowchemycms
+ - wowchemycms_config
   - HTML
+  
   
